@@ -29,9 +29,33 @@
             
         }
     ],
+	"subPackages": [
+	    {
+	      "root": "subpkg",
+	      "pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	    }
+	  ],
 	  "globalStyle": {
 	    "navigationBarTextStyle": "black",
-	    "navigationBarTitleText": "黑马优购",
+	    "navigationBarTitleText": "购物",
 	    "navigationBarBackgroundColor": "#C00000",
 	    "backgroundColor": "#FFFFFF"
 	  },
